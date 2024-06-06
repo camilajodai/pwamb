@@ -1,0 +1,21 @@
+{
+    "name": "Mb Gb APP",
+    "short_name": "MbGbApp",
+    "start_url": "/pwamb/", 
+    "display": "standalone", 
+    "orientation": "portrait",
+    "background_color": "#D7D2D7",
+    
+    "icons": [
+      {
+        "src": "megabyte192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "megabyte512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }

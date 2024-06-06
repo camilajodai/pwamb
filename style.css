@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D7D2D7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    background-color: #EFEDEF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2em;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+img#photo {
+    max-width: 80px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+input#mb {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button#converter {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: calc(100% - 20px);
+}
+
+button#converter:hover {
+    background-color: #0056b3;
+}
+
+p#result {
+    font-size: 1.2em;
+    color: #333333;
+    margin-top: 20px;
+}
+
+/* Consultas de Mídia */
+@media (max-width: 375px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .container {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    img#photo {
+        max-width: 60px;
+    }
+
+    input#mb, button#converter {
+        width: calc(100% - 20px);
+    }
+}
