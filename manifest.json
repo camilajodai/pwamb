@@ -4,7 +4,7 @@
     "start_url": "/pwamb/",
     "display": "standalone",
     "orientation": "portrait",
-    "background_color": "#D7D2D7",
+    "background_color": "#000000",
     "lang": "pt-BR",
     "dir": "ltr",
     "icons": [
