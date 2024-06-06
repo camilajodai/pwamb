@@ -1,10 +1,12 @@
 {
     "name": "Mb Gb APP",
     "short_name": "MbGbApp",
+    "description": "Um aplicativo para converter megabytes em gigabytes.",
     "start_url": "/pwamb/",
     "display": "standalone",
     "orientation": "portrait",
-    "background_color": "#000000",
+    "background_color": "#D7D2D7",
+    "theme_color": "#DBD6DB",
     "lang": "pt-BR",
     "dir": "ltr",
     "icons": [
